@@ -9219,3 +9219,12 @@ Stack trace:
 REQUEST_URI=/ceuch/images/albumes/4/normal/1.jpg
 HTTP_REFERER=http://172.18.21.72/ceuch/galeria/albumView/4
 ---
+2013/12/19 09:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes//thumbs/.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes//thumbs/.jpg
+HTTP_REFERER=http://localhost/ceuch/galeria/
+---
