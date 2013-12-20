@@ -51,4 +51,5 @@ class SFNoticiaView extends CWidget{
 
 
 
+
 ?>
