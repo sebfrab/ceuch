@@ -13,7 +13,7 @@ class SFPublicidad extends CWidget{
         $albumesModel = Albumes::model()->findall(array('order'=>'idalbumes DESC', 'limit' =>'1'));
         
         foreach($albumesModel as $model){
-            echo "<div id=\"item\" class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\">\n";
+            echo "<div id=\"item\" class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12 visible-md visible-lg visible-sm\">\n";
             echo "<a href=\"". Yii::app()->createUrl("galeria/albumView/$model->idalbumes") ."\">\n";
             echo "<div class=\"thumbnail\">";
             echo "<img src=\"".Yii::app()->request->baseUrl."/images/albumes/$model->idalbumes/thumbs/$model->portada.jpg\"  alt=\"\">";
