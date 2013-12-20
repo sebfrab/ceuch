@@ -17,7 +17,7 @@ class SFNoticias extends CWidget{
             
             
             $this->cabecera($model->idnoticias);
-            $this->thumbnail($model->idnoticias, $model->titulo);
+            $this->thumbnail($model->img, $model->titulo);
             $this->newsTitulo($model->titulo);
             $this->newsCuerpo($model->cuerpo);
             $this->dateNews($model->fecha);
@@ -43,9 +43,9 @@ class SFNoticias extends CWidget{
         echo "<a href=\"".Yii::app()->request->baseUrl."/nosotros/noticiaView/$idnoticias\">";                                             
     }
     
-    public function thumbnail($idnoticias, $titulo){
+    public function thumbnail($img, $titulo){
         echo "<div class=\"thumbnail\">";
-        echo "<img src=\"".Yii::app()->request->baseUrl."/images/news/$idnoticias.jpg\"  alt=\"$titulo\">";
+        echo "<img src=\"".Yii::app()->request->baseUrl."/images/news/$img\"  alt=\"$titulo\">";
         echo "</div>\n";
     }
     

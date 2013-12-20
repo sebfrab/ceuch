@@ -5,13 +5,13 @@ class SFNoticiaView extends CWidget{
     public function init(){
         parent::init();
         
-        $this->img($this->model->idnoticias);
+        $this->img($this->model->img);
         $this->texto($this->model->cuerpo, $this->model->fecha );
         
     }
     
-    public function img($idnoticias){
-        echo "<img class=\"thumbnail col-lg-4 col-md-4 col-sm-4 col-xs-12\" src=\"".Yii::app()->request->baseUrl."/images/news/$idnoticias.jpg\" />";
+    public function img($img){
+        echo "<img class=\"thumbnail col-lg-4 col-md-4 col-sm-4 col-xs-12\" src=\"".Yii::app()->request->baseUrl."/images/news/$img\" />";
     }
     
     public function texto($cuerpo, $fecha){

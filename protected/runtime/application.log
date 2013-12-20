@@ -9228,3 +9228,30 @@ Stack trace:
 REQUEST_URI=/ceuch/images/albumes//thumbs/.jpg
 HTTP_REFERER=http://localhost/ceuch/galeria/
 ---
+2013/12/20 22:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1607-a7117772-4296-43d8-aa94-a71fb712344cwallpaper.jpg.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1607-a7117772-4296-43d8-aa94-a71fb712344cwallpaper.jpg.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/20 22:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews5351-tioPablo.jpg.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews5351-tioPablo.jpg.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/20 22:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/6623-a7117772-4296-43d8-aa94-a71fb712344cwallpaper.jpg.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/662...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/6623-a7117772-4296-43d8-aa94-a71fb712344cwallpaper.jpg.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
