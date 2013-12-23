@@ -9636,3 +9636,12 @@ Stack trace:
 REQUEST_URI=/ceuch/galeria/ajaxAlbumes
 HTTP_REFERER=http://localhost/ceuch/galeria/albumView/1
 ---
+2013/12/23 14:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes/36/thumbs/167148_1837270216941_1396065689_3995630_7223027_n"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes/36/thumbs/167148_1837270216941_1396065689_3995630_7223027_n
+HTTP_REFERER=http://localhost/ceuch/galeria/albumView/38
+---
