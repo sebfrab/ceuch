@@ -20,7 +20,7 @@ class SFAlbumes extends CWidget{
     
     public function thumbnail($idalbumes, $portada){
         echo "<div class=\"thumbnail\">";
-        echo "<img src=\"".Yii::app()->request->baseUrl."/images/albumes/$idalbumes/thumbs/$portada.jpg\"  alt=\"\">";
+        echo "<img src=\"".Yii::app()->request->baseUrl."/images/albumes/$idalbumes/thumbs/$portada\"  alt=\"\">";
         echo "</div>\n";
     }
     

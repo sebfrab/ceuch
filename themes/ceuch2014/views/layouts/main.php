@@ -84,6 +84,23 @@
                     </div>
                </div>
             </div>
+            <div class="container">
+               <div id="row">
+                    <div class="col-lg-1">
+                    </div>
+                    <div class="col-lg-8">
+                        
+                    </div>
+                    <div id="author" class="col-lg-3">
+                        <a href="#" title="&#191; y por qu&eacute; no &#63; / seb.frab@gmail.com">
+                            <p>
+                                UTFSM 
+                                <p style="font-weight: bold; font-size: 12px;">Sebasti&aacute;n Franco</p>
+                            </p>
+                        </a>
+                    </div>
+               </div>
+            </div>
         </footer>
         
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
