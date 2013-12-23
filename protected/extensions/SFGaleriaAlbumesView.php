@@ -10,7 +10,7 @@ class SFGaleriaAlbumesView extends CWidget{
     }
     
     public function directorio($idalbumes){
-        $directorio = opendir("..".Yii::app()->request->baseUrl."/images/albumes/$idalbumes/thumbs/");
+        $directorio = opendir("images/albumes/$idalbumes/thumbs/");
         while( $archivo = readdir($directorio)){ 
             if(!is_dir($archivo)){ //verificamos si es o no un directorio
                 if($archivo!="Thumbs.db"){

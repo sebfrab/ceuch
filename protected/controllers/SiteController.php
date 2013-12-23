@@ -33,7 +33,7 @@ class SiteController extends Controller
             $noticiasModel = Noticias::model()->findAll(array('order'=>'idnoticias DESC', 'limit' =>'3'));
             $sliderModel = Slider::model()->findAll('estado=1');
             $compromisosModel = Compromisos::model()->findall(array('order'=>'idcompromisos DESC', 'limit' =>'7'));
-            $albumesModel = Albumes::model()->findall(array('order'=>'idalbumes DESC', 'limit' =>'10'));
+            $albumesModel = Albumes::model()->findall(array('order'=>'idalbumes DESC', 'limit' =>'8'));
             
             
             $this->render('index',array(
