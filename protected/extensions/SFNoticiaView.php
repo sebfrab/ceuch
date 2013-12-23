@@ -17,7 +17,7 @@ class SFNoticiaView extends CWidget{
     
     public function texto($cuerpo, $fecha){
         echo "<p style=\"text-align: justify;\" class=\"col-lg-8 col-md-8 col-sm-8 col-xs-12\">";
-        echo $cuerpo;
+        echo nl2br($cuerpo);
         
         $dia = date('d',strtotime($fecha));
         $mes = $this->mes(date('m',strtotime($fecha)));

@@ -10,7 +10,7 @@ class SFCompromisoView extends CWidget{
     }
     
     public function cuerpo($cuerpo, $fecha){
-        echo "<p style=\"text-align: justify;\">$cuerpo</p>";
+        echo "<p style=\"text-align: justify;\">".nl2br($cuerpo)."</p>";
         $dia = date('d',strtotime($fecha));
         $mes = $this->mes(date('m',strtotime($fecha)));
         $ano = date('Y',strtotime($fecha));

@@ -11,5 +11,5 @@ $this->menu=array(
 
 <p style="text-align: justify;">
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/santos/<?php echo $model->idpatronos ?>.jpg" style="float:right; padding: 20px;"/>
-    <?php echo $model->historia ?>
+    <?php echo nl2br($model->historia); ?>
 </p>
