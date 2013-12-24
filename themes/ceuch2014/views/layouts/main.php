@@ -7,7 +7,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="language" content="es" />
-        <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+        <title><?php echo CHtml::encode("Cruzada Eucarística - El Sol"); ?></title>
         <meta http-equiv="X-UA-Compatible" content="IE=7,8,9" />        
         
         <!-- Bootstrap 3.0 -->
@@ -106,7 +106,7 @@
                     <div id="author" class="col-lg-3">
                         <a href="#" title="&#191; y por qu&eacute; no &#63; / seb.frab@gmail.com">
                             <p>
-                                UTFSM 
+                                ¿y por qué no? 
                                 <p style="font-weight: bold; font-size: 12px;">Sebasti&aacute;n Franco</p>
                             </p>
                         </a>
@@ -150,7 +150,6 @@
                     itemsDesktop : [1199,3],
                     itemsDesktopSmall : [979,3]
                });
-               
                
             });
         </script>
