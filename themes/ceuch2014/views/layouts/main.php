@@ -33,6 +33,8 @@
             ga('send', 'pageview');
         </script>
         
+        <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
+        
 </head>
 
 <body>
@@ -115,7 +117,7 @@
             </div>
         </footer>
         
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
+        
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/collapse.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/holder.js"></script>
