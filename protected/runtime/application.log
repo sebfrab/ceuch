@@ -11223,3 +11223,336 @@ Stack trace:
 REQUEST_URI=/ceuch/images/albumes/1/thumbs/1
 HTTP_REFERER=http://localhost/ceuch/
 ---
+2013/12/25 01:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes/5/thumbs/1"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes/5/thumbs/1
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes/4/thumbs/1"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes/4/thumbs/1
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes/3/thumbs/1"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes/3/thumbs/1
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes/2/thumbs/1"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes/2/thumbs/1
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes/1/thumbs/1"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes/1/thumbs/1
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes/63/thumbs/DSC06179.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes/63/thumbs/DSC06179.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/albumes/62/thumbs/DSC06101.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/albumes/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/albumes/62/thumbs/DSC06101.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/25 01:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/site/index
+---
+2013/12/25 01:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/site/index
+---
+2013/12/25 01:55:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/site/index
+---
+2013/12/25 01:55:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/site/index
+---
+2013/12/25 01:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/site/index
+---
+2013/12/25 01:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/site/index
+---
+2013/12/26 23:35:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/26 23:35:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/26 23:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/26 23:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 00:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 00:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 00:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 00:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 00:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 00:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 00:40:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 00:40:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 01:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 01:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 13:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews8995-IMG_20131214_134431.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews8995-IMG_20131214_134431.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
+2013/12/27 13:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1990-Sin_t_tulo-1.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/images/news/ceuchNews1990-Sin_t_tulo-1.jpg
+HTTP_REFERER=http://localhost/ceuch/
+---
