@@ -4,8 +4,10 @@
 <head>
 	<link rel="Shortcut Icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/sol.ico"/>
         <meta name="author" content="Sebastian Franco Brantes UTFSM - ¿y por qué no? - seb.frab@gmail.com"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="Keywords" content="ceuch, cruzada eucarística, el sol, parroquia, santa maría, cruzados, Dios, Sebastián Franco" />
+        <meta name="description" content="ejército juvenil, a las órdenes del Santo Padre, cuyo fin es procurar la santidad propia y la salvación de las almas -- Un estilo de vida" />
         <meta name="language" content="es" />
         <title><?php echo CHtml::encode("Cruzada Eucarística - El Sol"); ?></title>
         <meta http-equiv="X-UA-Compatible" content="IE=7,8,9" />        
