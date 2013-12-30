@@ -5,7 +5,6 @@ class SFGaleriaAlbumes extends CWidget{
     
     public function init(){
         parent::init();
-        //echo "<h4 style=\"margin-left:15px;\">Albumes recientes</h4>";
         foreach($this->dataProvider as $model){
             $this->cabecera($model->idalbumes);
             $this->thumbnail($model->idalbumes, $model->portada, $model->titulo);
