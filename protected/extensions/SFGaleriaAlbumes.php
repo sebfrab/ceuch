@@ -8,7 +8,7 @@ class SFGaleriaAlbumes extends CWidget{
         //echo "<h4 style=\"margin-left:15px;\">Albumes recientes</h4>";
         foreach($this->dataProvider as $model){
             $this->cabecera($model->idalbumes);
-            $this->thumbnail($model->idalbumes, $model->portada);
+            $this->thumbnail($model->idalbumes, $model->portada, $model->titulo);
             $this->tituloAlbum($model->titulo, $model->ano);
             $this->cierre();
         }
@@ -20,9 +20,9 @@ class SFGaleriaAlbumes extends CWidget{
         echo "<a href=\"". Yii::app()->createUrl("galeria/albumView/$idalbumes") ."\">\n";
     }
     
-    public function thumbnail($idalbumes, $portada){
+    public function thumbnail($idalbumes, $portada, $titulo){
         echo "<div class=\"thumbnail\">";
-        echo "<img src=\"".Yii::app()->request->baseUrl."/images/albumes/$idalbumes/thumbs/$portada\"  alt=\"\">";
+        echo "<img src=\"".Yii::app()->request->baseUrl."/images/albumes/$idalbumes/thumbs/$portada\"  alt=\"$titulo\">";
         echo "</div>\n";
     }
     
