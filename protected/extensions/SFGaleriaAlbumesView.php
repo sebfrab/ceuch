@@ -17,8 +17,7 @@ class SFGaleriaAlbumesView extends CWidget{
                     $files[] = $archivo; 
                 }
             } 
-        }
-        
+        } 
         natsort($files);
         foreach($files as $file)
         {
