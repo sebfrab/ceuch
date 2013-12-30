@@ -14,10 +14,16 @@ class SFGaleriaAlbumesView extends CWidget{
         while( $archivo = readdir($directorio)){ 
             if(!is_dir($archivo)){ //verificamos si es o no un directorio
                 if($archivo!="Thumbs.db"){
-                    $this->viewArchivo($archivo, $idalbumes);
+                    $files[] = $archivo; 
                 }
             } 
         }
+        natsort($files);
+        foreach($files as $file)
+        {
+             $this->viewArchivo($file, $idalbumes);
+        } 
+        
     }
     
     public function viewArchivo($archivo, $idalbumes){
