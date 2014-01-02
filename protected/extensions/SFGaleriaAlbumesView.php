@@ -23,7 +23,6 @@ class SFGaleriaAlbumesView extends CWidget{
         {
              $this->viewArchivo($file, $idalbumes);
         } 
-        
     }
     
     public function viewArchivo($archivo, $idalbumes){
