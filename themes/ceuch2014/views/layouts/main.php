@@ -118,6 +118,8 @@
                </div>
             </div>
         </footer>
+    
+        <a href="#" class="scrollup">Scroll</a>
         
         
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.js"></script>
@@ -155,6 +157,20 @@
                     itemsDesktopSmall : [979,3]
                });
                
+   
+               $(window).scroll(function(){
+                    if ($(this).scrollTop() > 100 && $(window).width()>767) {
+                         $('.scrollup').fadeIn();
+                    } else {
+                         $('.scrollup').fadeOut();
+                    }
+               });
+
+               $('.scrollup').click(function(){
+                    $("html, body").animate({ scrollTop: 0 }, 500);
+                    return false;
+               });
+  
             });
         </script>
 

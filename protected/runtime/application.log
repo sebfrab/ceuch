@@ -11652,3 +11652,56 @@ REQUEST_URI=/ceuch/galeria/albumView/61
 in C:\xampp\htdocs\ceuch\protected\extensions\SFGaleriaAlbumesView.php (14)
 in C:\xampp\htdocs\ceuch\protected\extensions\SFGaleriaAlbumesView.php (9)
 in C:\xampp\htdocs\ceuch\protected\views\galeria\albumView.php (36)
+2014/01/02 08:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "icon_top.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('icon_top.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/icon_top.png
+HTTP_REFERER=http://localhost/ceuch/css/general.css
+---
+2014/01/02 08:03:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "icon_top.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('icon_top.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/icon_top.png
+HTTP_REFERER=http://localhost/ceuch/css/general.css
+---
+2014/01/02 08:03:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "icon_top.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('icon_top.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/icon_top.png
+HTTP_REFERER=http://localhost/ceuch/css/general.css
+---
+2014/01/02 08:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "icon_top.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('icon_top.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/icon_top.png
+HTTP_REFERER=http://localhost/ceuch/css/general.css
+---
+2014/01/02 08:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "icon_top.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('icon_top.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/icon_top.png
+HTTP_REFERER=http://localhost/ceuch/css/general.css
+---
+2014/01/02 08:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "icon_top.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('icon_top.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/icon_top.png
+---
