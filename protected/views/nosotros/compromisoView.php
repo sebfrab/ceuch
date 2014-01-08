@@ -8,6 +8,7 @@ $this->menu=array(
         array('label'=>'Leyes', 'url'=>array('leyes')),
         array('label'=>'Noticias', 'url'=>array('noticias')),
         array('label'=>'Compromisos', 'url'=>array('compromisos'),'itemOptions' => array('class' => 'active')),
+        array('label'=>'Campamento', 'url'=>array('campamento')),
 );
 ?>
 

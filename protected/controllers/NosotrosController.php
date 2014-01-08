@@ -8,7 +8,7 @@ class NosotrosController extends Controller
 	{
 		return array(
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('index', 'historiaMedieval', 'historia1900', 'actualidad', 'leyes', 'fundador', 'noticias', 'noticiaView', 'compromisos', 'compromisoView'),
+				'actions'=>array('index', 'historiaMedieval', 'historia1900', 'actualidad', 'leyes', 'fundador', 'noticias', 'noticiaView', 'compromisos', 'compromisoView', 'campamento', 'ajaxCampamento'),
 				'users'=>array('*'),
 			),
 		);
@@ -70,6 +70,29 @@ class NosotrosController extends Controller
             $this->render('noticiaView',array(
 			'model'=>$this->loadModelNoticias($id),
             ));
+        }
+        
+        public function actionCampamento()
+	{
+                $diasCampamento = CHtml::listData(Campamento::model()->findAll(array('select'=>"DATE_FORMAT(fecha, '%d/%m/%Y') as fecha",'distinct'=>true, "order"=>"idcampamento asc", "limit"=>"10",)),'fecha','fecha');
+                $campamentoModel = Campamento::model()->findAll();
+                
+		$this->render('campamento',array(
+                        'diasCampamento'=>$diasCampamento,
+                        'model'=>$campamentoModel,
+		));
+	}
+        
+        public function actionAjaxCampamento(){
+            if(isset($_POST['fecha']) && $_POST['fecha'] != ''){
+               $model = Campamento::model()->findAll(array('condition'=>"DATE_FORMAT(t.fecha,'%d/%m/%Y')='".$_POST['fecha']."'", "order"=>"idcampamento asc",));
+
+                $this->widget('ext.SFNosotrosCampamento',array(
+                    'dataProvider'=>$model,
+                ));  
+            }else{
+                echo '';
+            }  
         }
         
         

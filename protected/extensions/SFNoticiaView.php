@@ -12,7 +12,7 @@ class SFNoticiaView extends CWidget{
     
     
     public function img($img){
-        echo "<img class=\"thumbnail col-lg-4 col-md-4 col-sm-4 col-xs-12\" src=\"".Yii::app()->request->baseUrl."/images/news/$img\" />";
+        echo "<a class=\"fancybox\" href=\"".Yii::app()->request->baseUrl."/images/news/$img\"><img class=\"thumbnail col-lg-4 col-md-4 col-sm-4 col-xs-12\" src=\"".Yii::app()->request->baseUrl."/images/news/$img\" /></a>\n";
     }
     
     public function texto($cuerpo, $fecha){
