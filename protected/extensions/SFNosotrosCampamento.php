@@ -39,8 +39,7 @@ class SFNosotrosCampamento extends CWidget{
         echo "</div>\n";
         
         echo "<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n";
-
-        if(file_exists("../".Yii::app()->request->baseUrl."/images/campamento/$img") && $img != ''){
+        if(file_exists("images/campamento/$img") && $img!=''){
             echo "<a class=\"fancybox\" href=\"".Yii::app()->request->baseUrl."/images/campamento/$img\"><img class=\"thumbnail col-xs-12 col-sm-12 col-md-3 col-lg-2\" src=\"".Yii::app()->request->baseUrl."/images/campamento/$img\" /></a>\n";
         }
         echo "</div>\n";
