@@ -9,5 +9,13 @@ $this->menu=array(
 <br/>
 <h3 style="">Videos</h3>
 
-
+<div class="row" style="margin-top: 20px;">
+    <div id="albumes">
+    <?php 
+        $this->widget('ext.SFGaleriaVideos',array(
+           'dataProvider'=>$dataProvider,
+       ));        
+    ?>
+    </div>
+</div>
 

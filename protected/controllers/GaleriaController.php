@@ -34,9 +34,11 @@ class GaleriaController extends Controller
         }
         
         public function actionVideos(){
-                
+            
+                $model = Videos::model()->findAll();
+            
                 $this->render('videos',array(
-			
+			'dataProvider'=>$model,
 		));
         }
         
