@@ -8,6 +8,7 @@ class SFGaleriaVideos extends CWidget{
         foreach($this->dataProvider as $model){
             $this->cabecera($model->link);
             $this->thumbnail($model->nombre, $model->link);
+            $this->tituloVideo($model->nombre);
             $this->cierre();
         } 
     }
@@ -22,6 +23,12 @@ class SFGaleriaVideos extends CWidget{
         echo "<div class=\"thumbnail\">";
         echo "<img src=\"$link\"  alt=\"$nombre\">";
         echo "</div>\n";
+    }
+    
+    public function tituloVideo($titulo){
+        echo "<p id=\"tituloAlbum\">";
+        echo "$titulo";
+        echo "</p>\n";
     }
     
     public function cierre(){
