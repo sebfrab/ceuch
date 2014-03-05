@@ -19,7 +19,7 @@ class SFGaleriaVideos extends CWidget{
     }
     
     public function thumbnail($nombre, $link){
-        $link = $this->get_thumbnail($link);
+        $link = $this->get_thumbnail($link, 'hqdefault');
         echo "<div class=\"thumbnail\">";
         echo "<img src=\"$link\"  alt=\"$nombre\">";
         echo "</div>\n";
