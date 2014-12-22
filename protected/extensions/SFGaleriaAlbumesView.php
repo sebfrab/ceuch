@@ -28,7 +28,7 @@ class SFGaleriaAlbumesView extends CWidget{
     public function viewArchivo($archivo, $idalbumes){
         echo "<div class=\"col-lg-3 col-md-3 col-sm-4 col-xs-6\">\n";
         echo "<a class=\"fancybox\" rel=\"group\" href=\"".Yii::app()->request->baseUrl."/images/albumes/$idalbumes/normal/$archivo\">\n";
-        echo "<img class=\"thumbnail\" src=\"".Yii::app()->request->baseUrl."/images/albumes/$idalbumes/thumbs/$archivo \" />\n";
+        echo "<img class=\"lazy thumbnail\" data-original=\"".Yii::app()->request->baseUrl."/images/albumes/$idalbumes/thumbs/$archivo \" />\n";
         echo "</a>\n";
         echo "</div>\n";
     }
