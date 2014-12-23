@@ -17,12 +17,16 @@ class SFGaleriaAlbumesView extends CWidget{
                     $files[] = $archivo; 
                 }
             } 
-        } 
-        natsort($files);
-        foreach($files as $file)
-        {
-             $this->viewArchivo($file, $idalbumes);
-        } 
+        }
+        if($files){
+            natsort($files);
+            foreach($files as $file)
+            {
+                 $this->viewArchivo($file, $idalbumes);
+            } 
+        }
+        
+        
     }
     
     public function viewArchivo($archivo, $idalbumes){
